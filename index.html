@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+
+        <form method="POST">
+            <fieldset>
+                <legend>
+                    Add User
+                </legend>
+
+                <div>
+                <label for="firstname">First Name</label>
+                <input type="text" name="firstname" id="firstname">
+                    </div>
+
+                 <div>   
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname">
+</div>
+<div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+</div>
+                
+
+                <div>
+                    <label for="status">Status</label>
+                    <select id="status" name="status">
+                        <option value="student">Student</option>
+                        <option value="instructor">Instructor</option>
+                        <option value="administrator">Administrator</option>
+                    </select>
+
+                </div>
+
+                <p>Choose your favorite programming language:</p>
+                    <fieldset>
+                        <div>
+                        <label for="HTML">HTML</label>
+                        <input type="radio" id="HTML" name="favorite" value="HTML" checked>
+                        </div>
+
+                        <div>
+                            <label for="CSS">CSS</label>
+                            <input type="radio" id="CSS" name="favorite" value="CSS">
+                        </div>
+                       
+<div>
+                        <label for="JavaScript">JavaScript</label>
+                        <input type="radio" id="JavaScript" name="favorite" value="JavaScript">
+                    </div>
+                    </fieldset>
+
+                    <label for="comments">Comments</label>
+                    <div>  
+                        <textarea id="comments" cols="100" rows="20"></textarea>
+                    </div>
+
+                    <div>
+                        <label for="date">Current Date</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+
+                    <div>
+                        <label for="newsletter">Sign up for newsletter</label>
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                    </div>
+
+                    <div>
+                        <label for="terms">Agree to terms and conditions</label>
+                        <input type="checkbox" id="terms" name="terms">
+                    </div>
+
+                    <button type="submit" id="submit">Submit</button>
+
+            </fieldset>
+
+
+        </form>
+
+
+    </div>
+    
+
+
+</body>
+</html>
